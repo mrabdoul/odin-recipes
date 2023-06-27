@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 2%;
+    background: orange;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: orange;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    padding: 8px 12px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    margin: 1%;
+    text-align: center;
+}
+
+.intro{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description{
+    margin: 1%;
+}
+.description p{
+    font-style: italic;
+}
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.info p{
+    font-style: italic;
+}
+.info-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 2%;
+    font-weight: bold;
+    padding: 
+    0%;
+}
+.info-grid p{
+    padding: 5%;
+    margin: 2% 1%;
+}
+.info-grid span{
+    display: block;
+    font-weight: lighter;
+}
+.recipe{
+    padding: 2%;
+}
+.recipe h2{
+    margin: 1%;
+}
+footer{
+    padding: 2%;
+    background : orange;
+    color : white;
+    text-align: center;
+}
